@@ -1,0 +1,27 @@
+.main-btn {
+  padding: 11px 16px;
+  background-color: #F26722;
+  border-radius: 8px;
+  border: none;
+  transition: background-color .3s ease-in-out;
+  cursor: pointer;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FAFAFA;
+
+  &__arrow-btn {
+    padding-bottom: 1px;
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+  }
+}
+
+.main-btn:hover {
+  background: #CD4D0D;
+}

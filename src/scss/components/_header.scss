@@ -1,0 +1,19 @@
+.header {
+  padding-top: 23px;
+  background-color: #FAFAFA;
+}
+
+.header-top {
+  border-bottom: solid 1px rgba(217, 217, 217, 0.25);
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+}
+
+.header__bottom {
+  border-bottom: solid 1px rgba(217, 217, 217, 0.25);
+}
