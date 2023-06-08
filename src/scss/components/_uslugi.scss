@@ -1,0 +1,151 @@
+.uslugi {
+  padding: 40px 0;
+
+  &__wrap {
+    padding: 30px 26px 26px 26px;
+    background-color: #B183DF;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    color: #ffffff;
+    text-align: center;
+  }
+
+  &__card-wrap {
+    padding-top: 34px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 30px;
+  }
+
+  &__card {
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+  }
+
+  &__card:hover {
+    box-shadow: 6px 6px 8px -1px rgba(34, 60, 80, 0.3);
+  }
+
+  &__img {
+    border-radius: 12px;
+  }
+
+  &__card-content {
+    padding: 6px 20px 6px 12px;
+  }
+
+  &__card-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #3B374F;
+    display: block;
+  }
+
+  &__card-text {
+    padding-top: 9px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3B374F;
+    display: block;
+  }
+
+  &__btn {
+    margin-top: 24px;
+  }
+}
+
+
+@media (max-width: 1080px) {
+  .uslugi__img {
+    width: 150px;
+  }
+
+  .uslugi__card-text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .uslugi__card-title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 904px) {
+  .uslugi__img {
+    width: 120px;
+  }
+}
+
+
+@media (max-width: 850px) {
+  .uslugi__card-wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .uslugi__img {
+    width: 180px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .uslugi__btn {
+    width: 100%;
+    justify-content: center;
+    padding: 11px 0;
+  }
+}
+
+
+@media (max-width: 552px) {
+  .uslugi__card-title {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .uslugi__img {
+    width: 120px;
+  }
+}
+
+@media (max-width: 468px) {
+
+  .uslugi__img {
+    width: 100px;
+  }
+
+  .uslugi__card-content {
+    padding: 2px 10px 2px 2px;
+  }
+
+  .uslugi__wrap {
+    padding: 20px 14px 20px 14px;
+  }
+}
+
+@media (max-width: 424px) {
+  .uslugi__card {
+    flex-wrap: wrap;
+    padding: 14px;
+  }
+
+  .uslugi__img {
+    width: 220px;
+    padding-top: 14px;
+  }
+
+  .uslugi__wrap {
+    padding: 24px 22px 24px 22px;
+  }
+}
