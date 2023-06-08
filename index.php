@@ -106,8 +106,8 @@
           </div>
           <div class="about__content">
             <h2 class="title about__title">О нас</h2>
-            <p class="about__text" >Компания Правовые Технологии - официальный представитель Общероссийской сети распространения правовой информации КонсультантПлюс</p>
-            <p class="about__text" >Основа нашего успеха при работе с нами - надежная справочно-правовая система КонсультантПлюс, уникальные услуги по сопровождению и адаптпции,  профессиональные дружелюбные сотрудники</p>
+            <p class="text about__text" >Компания Правовые Технологии - официальный представитель Общероссийской сети распространения правовой информации КонсультантПлюс</p>
+            <p class="text about__text" >Основа нашего успеха при работе с нами - надежная справочно-правовая система КонсультантПлюс, уникальные услуги по сопровождению и адаптпции,  профессиональные дружелюбные сотрудники</p>
             <a href="/o-kompanii/" class="main-btn about__btn" target="_blank">
               <img class="main-btn__arrow-btn" src="<?php echo get_template_directory_uri() ?>/app/img/arrow-btn.svg" alt="Кнопка">
               <span>Подробнее</span>
@@ -123,8 +123,8 @@
           <div class="uslugi__card-wrap">
             <a href="#" class="uslugi__card">
               <div class="uslugi__card-content">
-                <span class="uslugi__card-title">Линия консультации</span>
-                <span class="uslugi__card-text">Сделает Вашу работу более эффективной
+                <span class="card-title uslugi__card-title">Линия консультации</span>
+                <span class="card-text uslugi__card-text">Сделает Вашу работу более эффективной
                   и комфортной. Поможет оперативно решить Ваш вопрос или профессиональную задачу
                 </span>
               </div>
@@ -132,8 +132,8 @@
             </a>
             <a href="#" class="uslugi__card">
               <div class="uslugi__card-content">
-                <span class="uslugi__card-title">Обучение</span>
-                <span class="uslugi__card-text">Поможет эффективно использовать все возможности КонсультантПлюс. Семинары
+                <span class="card-title uslugi__card-title">Обучение</span>
+                <span class="card-text uslugi__card-text">Поможет эффективно использовать все возможности КонсультантПлюс. Семинары
                   и курсы повышения квалификации поддержат Ваш профессионализм
                 </span>
               </div>
@@ -141,8 +141,8 @@
             </a>
             <a href="#" class="uslugi__card">
               <div class="uslugi__card-content">
-                <span class="uslugi__card-title">Персональный менеджер</span>
-                <span class="uslugi__card-text">Обеспечит работу КонсультантПлюс
+                <span class="card-title uslugi__card-title">Персональный менеджер</span>
+                <span class="card-text uslugi__card-text">Обеспечит работу КонсультантПлюс
                   на Вашем устройстве. Поможет ориентироваться в сервисах нашей компании
                 </span>
               </div>
@@ -150,8 +150,8 @@
             </a>
             <a href="#" class="uslugi__card">
               <div class="uslugi__card-content">
-                <span class="uslugi__card-title">Подписаться на рассылки</span>
-                <span class="uslugi__card-text">Рассылка с обзорами законодательства поможет своевременно узнать о важных
+                <span class="card-title uslugi__card-title">Подписаться на рассылки</span>
+                <span class="card-text uslugi__card-text">Рассылка с обзорами законодательства поможет своевременно узнать о важных
                   для Вас изменениях
                 </span>
               </div>
@@ -168,7 +168,199 @@
     <section class="sistem">
       <div class="container">
         <div class="sistem__wrap">
+          <div class="sistem__content">
+            <h4 class="title sistem__title">Надежная справочно-правовая система КонсультантПлюс</h4>
+            <p class="text sistem__text">КонсультантПлюс - это эффективный инструмент и надежныйпомощник для специалиста, имеющего дело с законодательством</p>
+            <p class="text sistem__text">Самая полная база правовой информации, фирменные обновляемыеразъяснения, удобный и быстрый поиск, видеосеминары,дружественный интерфейс и современные программные технологии</p>
+            <div class="sistem__btn-group">
+              <a href="#" class="sistem__card">
+                <div class="sistem__card-content">
+                  <span class="card-title sistem__card-title  sistem__card-title--left">Получить бесплатный доступ</span>
+                  <span class="card-text sistem__card-text sistem__card-text--left">Для изучения системы</span>
+                </div>
+                <img class="sistem__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/sistem1.png" alt="Получить бесплатный доступ">
+              </a>
+              <a href="#" class="sistem__card">
+                <div class="sistem__card-content">
+                  <span class="card-title sistem__card-title">Рассчитать стоимость</span>
+                  <span class="card-text sistem__card-text">Для вашей организации</span>
+                </div>
+                <img class="sistem__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/sistem2.png" alt="Рассчитать стоимость">
+              </a>
+            </div>
+          </div>
+          <div class="sistem__img-wrap">
+            <img class="sistem__img" src="<?php echo get_template_directory_uri() ?>/app/img/sistembg.png" alt="система КонсультантПлюс">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="version">
+      <div class="container">
+        <div class="version__wrap">
+          <h5 class="title version__title">выберите версию системы</h5>
+          <div class="version__card-wrap">
+            <div href="#" class="version__card">
+              <div class="version__card-content">
+                <span class="card-title version__card-title">Версия для бухгалтера</span>
+                <a href="/service/" class="main-btn-white version__card-btn">
+                  <span>Подробнее</span>
+                  <img class="main-btn__arrow-btn" src="<?php echo get_template_directory_uri() ?>/app/img/arrow-btn1.svg" alt="Кнопка">
+                </a>
+              </div>
+              <div class="version__img">
+                <img class="version__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/ver-buh.png" alt="Версия системы">
+              </div>
+            </div>
+            <div href="#" class="version__card">
+              <div class="version__card-content">
+                <span class="card-title version__card-title">Версия для юриста</span>
+                <a href="/service/" class="main-btn-white version__card-btn">
+                  <span>Подробнее</span>
+                  <img class="main-btn__arrow-btn" src="<?php echo get_template_directory_uri() ?>/app/img/arrow-btn1.svg" alt="Кнопка">
+                </a>
+              </div>
+              <div class="version__img">
+                <img class="version__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/ver-ur.png" alt="Версия системы">
+              </div>
+            </div>
+            <div href="#" class="version__card">
+              <div class="version__card-content">
+                <span class="card-title version__card-title">Универсальная версия</span>
+                <a href="/service/" class="main-btn-white version__card-btn">
+                  <span>Подробнее</span>
+                  <img class="main-btn__arrow-btn" src="<?php echo get_template_directory_uri() ?>/app/img/arrow-btn1.svg" alt="Кнопка">
+                </a>
+              </div>
+              <div class="version__img">
+                <img class="version__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/ver-un.png" alt="Версия системы">
+              </div>
+            </div>
+            <div href="#" class="version__card">
+              <div class="version__card-content">
+                <span class="card-title version__card-title">Версия для специалиста по кадрам</span>
+                <a href="/service/" class="main-btn-white version__card-btn">
+                  <span>Подробнее</span>
+                  <img class="main-btn__arrow-btn" src="<?php echo get_template_directory_uri() ?>/app/img/arrow-btn1.svg" alt="Кнопка">
+                </a>
+              </div>
+              <div class="version__img">
+                <img class="version__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/ver-spec.png" alt="Версия системы">
+              </div>
+            </div>
+            <div href="#" class="version__card">
+              <div class="version__card-content">
+                <span class="card-title version__card-title">Версия для руководителя</span>
+                <a href="/service/" class="main-btn-white version__card-btn">
+                  <span>Подробнее</span>
+                  <img class="main-btn__arrow-btn" src="<?php echo get_template_directory_uri() ?>/app/img/arrow-btn1.svg" alt="Кнопка">
+                </a>
+              </div>
+              <div class="version__img">
+                <img class="version__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/ver-dir.png" alt="Версия системы">
+              </div>
+            </div>
+            <div href="#" class="version__card">
+              <div class="version__card-content">
+                <span class="card-title version__card-title">Версия для бюджетных организаций</span>
+                <a href="/service/" class="main-btn-white version__card-btn">
+                  <span>Подробнее</span>
+                  <img class="main-btn__arrow-btn" src="<?php echo get_template_directory_uri() ?>/app/img/arrow-btn1.svg" alt="Кнопка">
+                </a>
+              </div>
+              <div class="version__img">
+                <img class="version__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/ver-org.png" alt="Версия системы">
+              </div>
+            </div>
+          </div>
+          <a href="/service/" class="main-btn-white version__btn">
+            <img class="main-btn__arrow-btn" src="<?php echo get_template_directory_uri() ?>/app/img/arrow-btn1.svg" alt="Кнопка">
+            <span>Посмотреть все версии</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="main-news">
+      <div class="container">
+        <h6 class="title main-news__title">Последние новостные материалы</h6>
+        <div class="main-news__wrap">
+          <?php	  // параметры по умолчанию
+          $my_posts = get_posts( array(
+            'numberposts' => 3,
+            'category'    => 1,
+            'orderby'     => 'date',
+            'order'       => 'DESC',
+            'include'     => array(),
+            'exclude'     => array(),
+            'meta_key'    => '',
+            'meta_value'  =>'',
+            'post_type'   => 'post',
+                    // 							'tag'=>          'case',
+            'suppress_filters' => true, // подавление работы фильтров изменения SQL запроса
+          ) );
 
+          foreach( $my_posts as $post ){
+            setup_postdata( $post ); ?>
+            <div class="main-news__card">
+              <div class="main-news__card-header">
+                <?php
+                  if ( has_post_thumbnail() ) {
+
+                      the_post_thumbnail( 'news-thumbnail' );
+
+                  } else { ?>
+                  <img class="main-news__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/no.png" alt="<?php the_title(); ?>" />
+                <?php } ?>
+                <span class="main-news__card-title-date">(Дата публикации) <?php echo get_the_date('d.m.Y'); ?> </span>
+                <span href="<?php the_permalink() ?>" class="main-news__card-title"><?php the_title(); ?></span>
+              </div>
+              <div class="main-news__card-descr">
+                <?php the_excerpt(); ?>
+              </div>
+              <a href="<?php the_permalink() ?>" class="main-btn main-news__btn">
+                <img class="main-btn__arrow-btn" src="<?php echo get_template_directory_uri() ?>/app/img/arrow-btn.svg" alt="Кнопка">
+                <span>Подробнее</span>
+              </a>
+
+            </div>
+          <?php  }
+          wp_reset_postdata();
+          ?>
+        </div>
+        <div class="main-news__btn--all-group">
+          <a href="/news/" class="main-btn main-news__btn main-news__btn--all">
+            <img class="main-btn__arrow-btn" src="<?php echo get_template_directory_uri() ?>/app/img/arrow-btn1.svg" alt="Кнопка">
+            <span>Все новости</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+    <section class="slider-two">
+      <div class="container">
+        <div class="swiper slider-two-swiper">
+          <div class="swiper-wrapper">
+            <?php if( have_rows('slide-two') ): while( have_rows('slide-two') ) : the_row(); ?>
+            <div class="swiper-slide">
+              <div class="slider-two__inner">
+                <div class="slider-two__text-wrapper">
+                  <span class="title slider-two__title"><?php echo get_sub_field('slider-two-title'); ?></span>
+                  <span class="slider-two__subtitle"><?php echo get_sub_field('slider-two-subtitle'); ?></span>
+                </div>
+                <div class="slider-two__img-wrapper">
+                  <img class="slider-two__img" src="<?php echo get_sub_field('slider-two-img'); ?>" alt="Слайд">
+                </div>
+              </div>
+            </div>
+            <?php endwhile; endif; ?>
+          </div>
+          <div class="swiper-pagination slider-pagination"></div>
+          <button class="slider-btn-prev slider-btn">
+            <img class="slider-btn-img" src="<?php echo get_template_directory_uri() ?>/app/img/rightw.svg" alt="Стрелка">
+          </button>
+          <button class="slider-btn-next slider-btn">
+            <img class="slider-btn-img" src="<?php echo get_template_directory_uri() ?>/app/img/leftw.svg" alt="Стрелка">
+          </button>
         </div>
       </div>
     </section>

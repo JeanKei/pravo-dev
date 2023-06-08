@@ -1,0 +1,134 @@
+.slider-two {
+  padding-top: 12px;
+  padding-bottom: 25px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 44px 89px 71px 89px;
+    gap: 100px;
+  }
+
+  &__img-wrapper {
+    width: 40%;
+  }
+
+  &__title {
+    color: #ffffff;
+  }
+
+  &__subtitle {
+    color: #ffffff;
+  }
+
+  &__img {
+    height: 100%;
+    border-radius: 18px;
+  }
+
+  &__text-wrapper {
+    width: 60%;
+  }
+
+  .slider-pagination span {
+    width: 20px;
+    height: 3px;
+    background: rgba(#ffffff, .8);
+    border-radius: 10px;
+  }
+
+  .slider-pagination .swiper-pagination-bullet-active {
+    width: 64px;
+    height: 3px;
+    background: #ffffff;
+    border-radius: 10px;
+  }
+
+  .slider-btn {
+    border: 1px solid;
+    border-color: rgba(#ffffff, .15);
+    border-radius: 50%;
+    background-color: transparent;
+    padding: 2px 6px;
+    cursor: pointer;
+    transition: border-color 0.3s ease-in-out;
+  }
+
+  .slider-btn:hover {
+    border-color: rgba(#ffffff, 1);
+  }
+}
+
+.slider-two-swiper {
+  background-color: #B183DF;
+  border-radius: 18px;
+}
+
+
+@media (max-width: 1200px) {
+  .slider-two__text-wrapper {
+    width: 50%;
+  }
+
+  .slider-two__inner {
+    gap: 50px;
+    padding: 44px 50px 71px 50px;
+  }
+
+  .slider-two__title {
+    font-size: 46px;
+    line-height: 46px;
+  }
+}
+
+
+@media (max-width: 940px) {
+
+
+  .slider-two__inner {
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 44px;
+  }
+
+  .slider-two__img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .slider-two__inner {
+    flex-direction: column-reverse;
+    padding: 30px 50px 30px 50px;
+    align-items: flex-start;
+  }
+
+  .slider-two__text-wrapper {
+    width: 100%;
+  }
+
+  .slider-two__img-wrapper {
+    width: 50%;
+  }
+
+  .slider-two__title {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 576px) {
+  .slider-two__img-wrapper {
+    width: 100%;
+  }
+
+  .slider-two__inner {
+    padding: 24px 45px 24px 45px;
+  }
+
+  .slider-two__title {
+    font-size: 28px;
+    line-height: 28px;
+  }
+}

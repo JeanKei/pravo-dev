@@ -19,7 +19,7 @@ add_filter('show_admin_bar', '__return_false');
 
 
 
-/* регистрация меню */
+/* ============ регистрация меню =============== */
 
 register_nav_menus(
 	array(
@@ -32,6 +32,23 @@ register_nav_menus(
 // 		'head_menu2' => 'Меню в шапке2',
 // 	)
 // );
+
+
+/* ============ длина превью в посте =============== */
+
+
+function wpdocs_custom_excerpt_length( $length ) {
+	return 20;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+
+
+/* ============ миниатюры в посте =============== */
+
+add_theme_support( 'post-thumbnails' );
+
+add_image_size( 'news-thumbnail', 356, 254 );
+
 
 // хлебные крошки
 

@@ -41,21 +41,8 @@
     padding: 6px 20px 6px 12px;
   }
 
-  &__card-title {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 23px;
-    color: #3B374F;
-    display: block;
-  }
-
   &__card-text {
     padding-top: 9px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #3B374F;
-    display: block;
   }
 
   &__btn {
@@ -67,16 +54,6 @@
 @media (max-width: 1080px) {
   .uslugi__img {
     width: 150px;
-  }
-
-  .uslugi__card-text {
-    font-size: 14px;
-    line-height: 16px;
-  }
-
-  .uslugi__card-title {
-    font-size: 18px;
-    line-height: 20px;
   }
 }
 
@@ -109,10 +86,6 @@
 
 
 @media (max-width: 552px) {
-  .uslugi__card-title {
-    font-size: 16px;
-    line-height: 18px;
-  }
 
   .uslugi__img {
     width: 120px;

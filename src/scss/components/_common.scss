@@ -22,6 +22,9 @@
   }
 }
 
+.main-btn:hover {
+  background-color: #CD4D0D;
+}
 
 .main-btn-white {
   padding: 11px 16px;
@@ -75,5 +78,64 @@
   .title {
     font-size: 32px;
     line-height: 32px;
+  }
+}
+
+
+.text {
+  margin: 0;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #020202;
+}
+
+
+@media (max-width: 886px) {
+  .text {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+
+
+
+.card-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #3B374F;
+  display: block;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3B374F;
+  display: block;
+}
+
+
+@media (max-width: 1080px) {
+
+  .card-text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+
+@media (max-width: 552px) {
+  .card-title {
+    font-size: 16px;
+    line-height: 18px;
   }
 }
