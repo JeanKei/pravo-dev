@@ -333,7 +333,6 @@
             <span>Все новости</span>
           </a>
         </div>
-
       </div>
     </section>
     <section class="slider-two">
@@ -364,6 +363,118 @@
         </div>
       </div>
     </section>
+    <div class="prof">
+      <div class="container">
+        <div class="prof__wrap">
+          <div class="prof__content">
+            <span class="title prof__title">Консультантплюс для профильных специалистов</span>
+            <span class="subtitle prof__subtitle">Благодаря богатому опыту работы с разными категориями предприятий и организаций, мы подготовили рекомендации по готовым комплектам справочных систем для профильных специалистов</span>
+          </div>
+          <div class="prof__card-wrap">
+            <div class="prof__card">
+              <img class="prof__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/prof1.png" alt="Бухгалтеру">
+              <a class="prof__card-link" href="#">Бухгалтеру</a>
+            </div>
+            <div class="prof__card">
+              <img class="prof__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/prof2.png" alt="Юристу">
+              <a class="prof__card-link" href="#">Юристу</a>
+            </div>
+            <div class="prof__card">
+              <img class="prof__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/prof3.png" alt="Руководителю">
+              <a class="prof__card-link" href="#">Руководителю</a>
+            </div>
+            <div class="prof__card">
+              <img class="prof__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/prof4.png" alt="Кадровику">
+              <a class="prof__card-link" href="#">Кадровику</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="info">
+      <div class="container">
+        <h6 class="title info__title">Информация о компании</h6>
+        <div class="info__wrap">
+          <div class="info__content">
+            <p class="text info__text">
+              Настоящий сайт является официальным сайтом Общества с ограниченной ответственностью <strong>«Правовые технологии»</strong>
+            </p>
+            <p class="text info__text">
+            Наша компания осуществляет деятельность в области информационных технологий, включена в Реестр аккредитованных организаций, осуществляющих деятельность в области информационных технологий (номер в Реестре 3832, дата решения об аккредитации 30 мая 2014 года)
+            </p>
+            <p class="text info__text">
+            Основной вид деятельности компании: адаптация, модификация и сопровождение Систем КонсультантПлюс (ОКВЭД 63.11.1)
+            </p>
+            <p class="text info__text">
+            СПС КонсультантПлюс зарегистрирована в едином реестре российских программ для электронных вычислительных машин и баз данных. Запись в реестре № 212 от 18.03.2016 произведена на основании Приказа Министерства цифрового развития, связи и массовых коммуникаций Российской Федерации от 18.03.2016 № 112. Компания осуществляет также и другие виды деятельности в области информационных технологий
+            </p>
+          </div>
+          <div class="info__content">
+            <p class="text info__text info__text--title">Контактная информация:</p>
+            <p class="text info__text">Общества с ограниченной ответственностью «Правовые Технологии»</p>
+            <p class="text info__text">ИНН 7536132097</p>
+            <p class="text info__text">ОГРН 1127536008291</p>
+            <span class="text info__text info__text--icon">
+              <img class="info__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/location-tick.svg" alt="Адрес">
+              <span>672000, Забайкальский край, г. Чита, ул. Анохина,91, корп.2 офис 401</span>
+            </span>
+            <span class="text info__text info__text--icon">
+              <img class="info__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/call.svg" alt="Телефон">
+              <span>(3022) 400-400, 210-090</span>
+            </span>
+            <span class="text info__text info__text--icon">
+              <img class="info__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/sms.svg" alt="Почта">
+              <span>ric508@chitacons.ru</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="useful">
+      <div class="container">
+        <span class="title useful__title">Полезная информация</span>
+        <div class="useful__wrap">
+          <ul class="useful__list">
+            <li class="useful__li">
+              <a href="#" class="useful__link">
+                <img class="useful__link-img" src="<?php echo get_template_directory_uri() ?>/app/img/useful1.png" alt="Календарь бухгалтера со сроками сдачи отчетности на 2023 год">
+                <span class="useful__link-title">Календарь бухгалтера со сроками сдачи отчетности на 2023 год</span>
+              </a>
+            </li>
+            <li class="useful__li">
+              <a href="#" class="useful__link">
+                <img class="useful__link-img" src="<?php echo get_template_directory_uri() ?>/app/img/useful1.png" alt="Производственный календарь на 2023 год">
+                <span class="useful__link-title">Производственный календарь на 2023 год</span>
+              </a>
+            </li>
+            <li class="useful__li">
+              <a href="#" class="useful__link">
+                <img class="useful__link-img" src="<?php echo get_template_directory_uri() ?>/app/img/useful1.png" alt="Правовой календарь на I квартал 2023 года">
+                <span class="useful__link-title">Правовой календарь на I квартал 2023 года</span>
+              </a>
+            </li>
+            <li class="useful__li">
+              <a href="#" class="useful__link">
+                <img class="useful__link-img" src="<?php echo get_template_directory_uri() ?>/app/img/useful2.png" alt="Федеральная налоговая служба">
+                <span class="useful__link-title">Федеральная налоговая служба</span>
+              </a>
+            </li>
+            <li class="useful__li">
+              <a href="#" class="useful__link">
+                <img class="useful__link-img" src="<?php echo get_template_directory_uri() ?>/app/img/useful3.png" alt="Пенсионный фонд РФ">
+                <span class="useful__link-title">Пенсионный фонд РФ</span>
+              </a>
+            </li>
+            <li class="useful__li">
+              <a href="#" class="useful__link">
+                <img class="useful__link-img" src="<?php echo get_template_directory_uri() ?>/app/img/useful4.png" alt="Конституционный Суд РФ">
+                <span class="useful__link-title">Конституционный Суд РФ</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </main>
 <?php get_footer(); ?>
 
