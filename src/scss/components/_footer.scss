@@ -62,7 +62,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 36px;
+    gap: 14px;
+    flex-wrap: wrap;
   }
 
   &__copyright-text-wrap {

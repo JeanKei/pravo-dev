@@ -7,7 +7,7 @@
             <h1 class="hero__title">Региональный центр КонсультантПлюс в забайкальском крае</h1>
             <span class="hero__subtitle">Поможем Вашей организации использовать все преимущества системы КонсультантПлюс</span>
             <div class="hero__btn-group">
-              <button class="main-btn hero__btn">
+              <button class="main-btn hero__btn data-madal" data-graph-path="lead" data-nametitle="Заказать звонок">
                 <img class="main-btn__arrow-btn" src="<?php echo get_template_directory_uri() ?>/app/img/arrow-btn.svg" alt="Кнопка">
                 <span>Заказать звонок</span>
               </button>
@@ -25,7 +25,7 @@
             </div>
           </div>
           <div class="hero__btn-group hero__btn-group--mobile">
-            <button class="main-btn hero__btn">
+            <button class="main-btn hero__btn data-madal" data-graph-path="lead" data-nametitle="Заказать звонок">
               <img class="main-btn__arrow-btn" src="<?php echo get_template_directory_uri() ?>/app/img/arrow-btn.svg" alt="Кнопка">
               <span>Заказать звонок</span>
             </button>
@@ -108,7 +108,7 @@
             <h2 class="title about__title">О нас</h2>
             <p class="text about__text" >Компания Правовые Технологии - официальный представитель Общероссийской сети распространения правовой информации КонсультантПлюс</p>
             <p class="text about__text" >Основа нашего успеха при работе с нами - надежная справочно-правовая система КонсультантПлюс, уникальные услуги по сопровождению и адаптпции,  профессиональные дружелюбные сотрудники</p>
-            <a href="/o-kompanii/" class="main-btn about__btn" target="_blank">
+            <a href="/o-kompanii/" class="main-btn about__btn">
               <img class="main-btn__arrow-btn" src="<?php echo get_template_directory_uri() ?>/app/img/arrow-btn.svg" alt="Кнопка">
               <span>Подробнее</span>
             </a>
@@ -121,7 +121,7 @@
         <div class="uslugi__wrap">
           <h3 class="title uslugi__title">Наши услуги</h3>
           <div class="uslugi__card-wrap">
-            <a href="#" class="uslugi__card">
+            <a href="/service/consultline/" class="uslugi__card">
               <div class="uslugi__card-content">
                 <span class="card-title uslugi__card-title">Линия консультации</span>
                 <span class="card-text uslugi__card-text">Сделает Вашу работу более эффективной
@@ -130,7 +130,7 @@
               </div>
               <img class="uslugi__img" src="<?php echo get_template_directory_uri() ?>/app/img/main-uslugi1.jpg" alt="Услуги">
             </a>
-            <a href="#" class="uslugi__card">
+            <a href="/service/obuchenie-rabote-s-sistemoj/" class="uslugi__card">
               <div class="uslugi__card-content">
                 <span class="card-title uslugi__card-title">Обучение</span>
                 <span class="card-text uslugi__card-text">Поможет эффективно использовать все возможности КонсультантПлюс. Семинары
@@ -139,7 +139,7 @@
               </div>
               <img class="uslugi__img" src="<?php echo get_template_directory_uri() ?>/app/img/main-uslugi2.jpg" alt="Услуги">
             </a>
-            <a href="#" class="uslugi__card">
+            <a href="/service/account-manager/" class="uslugi__card">
               <div class="uslugi__card-content">
                 <span class="card-title uslugi__card-title">Персональный менеджер</span>
                 <span class="card-text uslugi__card-text">Обеспечит работу КонсультантПлюс
@@ -148,7 +148,7 @@
               </div>
               <img class="uslugi__img" src="<?php echo get_template_directory_uri() ?>/app/img/main-uslugi3.jpg" alt="Услуги">
             </a>
-            <a href="#" class="uslugi__card">
+            <a href="/service/receive/" class="uslugi__card">
               <div class="uslugi__card-content">
                 <span class="card-title uslugi__card-title">Подписаться на рассылки</span>
                 <span class="card-text uslugi__card-text">Рассылка с обзорами законодательства поможет своевременно узнать о важных
@@ -158,7 +158,7 @@
               <img class="uslugi__img" src="<?php echo get_template_directory_uri() ?>/app/img/main-uslugi4.jpg" alt="Услуги">
             </a>
           </div>
-          <a href="/service/" class="main-btn-white uslugi__btn" target="_blank">
+          <a href="/service/" class="main-btn-white uslugi__btn">
             <img class="main-btn__arrow-btn" src="<?php echo get_template_directory_uri() ?>/app/img/arrow-btn1.svg" alt="Кнопка">
             <span>Посмотреть все услуги</span>
           </a>
@@ -173,14 +173,14 @@
             <p class="text sistem__text">КонсультантПлюс - это эффективный инструмент и надежныйпомощник для специалиста, имеющего дело с законодательством</p>
             <p class="text sistem__text">Самая полная база правовой информации, фирменные обновляемыеразъяснения, удобный и быстрый поиск, видеосеминары,дружественный интерфейс и современные программные технологии</p>
             <div class="sistem__btn-group">
-              <a href="#" class="sistem__card">
+              <button href="#" class="sistem__card data-madal" data-graph-path="lead" data-nametitle="Получить бесплатный доступ">
                 <div class="sistem__card-content">
                   <span class="card-title sistem__card-title  sistem__card-title--left">Получить бесплатный доступ</span>
                   <span class="card-text sistem__card-text sistem__card-text--left">Для изучения системы</span>
                 </div>
                 <img class="sistem__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/sistem1.png" alt="Получить бесплатный доступ">
-              </a>
-              <a href="#" class="sistem__card">
+              </button>
+              <a href="/service/prices/" class="sistem__card">
                 <div class="sistem__card-content">
                   <span class="card-title sistem__card-title">Рассчитать стоимость</span>
                   <span class="card-text sistem__card-text">Для вашей организации</span>
@@ -373,19 +373,19 @@
           <div class="prof__card-wrap">
             <div class="prof__card">
               <img class="prof__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/prof1.png" alt="Бухгалтеру">
-              <a class="prof__card-link" href="#">Бухгалтеру</a>
+              <a class="prof__card-link" href="/service/buhgalteru/">Бухгалтеру</a>
             </div>
             <div class="prof__card">
               <img class="prof__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/prof2.png" alt="Юристу">
-              <a class="prof__card-link" href="#">Юристу</a>
+              <a class="prof__card-link" href="/service/yuristu/">Юристу</a>
             </div>
             <div class="prof__card">
               <img class="prof__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/prof3.png" alt="Руководителю">
-              <a class="prof__card-link" href="#">Руководителю</a>
+              <a class="prof__card-link" href="/service/rukovoditelyu/">Руководителю</a>
             </div>
             <div class="prof__card">
               <img class="prof__card-img" src="<?php echo get_template_directory_uri() ?>/app/img/prof4.png" alt="Кадровику">
-              <a class="prof__card-link" href="#">Кадровику</a>
+              <a class="prof__card-link" href="/service/kadroviku/">Кадровику</a>
             </div>
           </div>
         </div>
@@ -436,37 +436,37 @@
         <div class="useful__wrap">
           <ul class="useful__list">
             <li class="useful__li">
-              <a href="#" class="useful__link">
+              <a href="https://consultant.ru/document/cons_doc_LAW_434934/" class="useful__link" target="_blank">
                 <img class="useful__link-img" src="<?php echo get_template_directory_uri() ?>/app/img/useful1.png" alt="Календарь бухгалтера со сроками сдачи отчетности на 2023 год">
                 <span class="useful__link-title">Календарь бухгалтера со сроками сдачи отчетности на 2023 год</span>
               </a>
             </li>
             <li class="useful__li">
-              <a href="#" class="useful__link">
+              <a href="https://consultant.ru/law/ref/calendar/proizvodstvennye/2023/" class="useful__link" target="_blank">
                 <img class="useful__link-img" src="<?php echo get_template_directory_uri() ?>/app/img/useful1.png" alt="Производственный календарь на 2023 год">
                 <span class="useful__link-title">Производственный календарь на 2023 год</span>
               </a>
             </li>
             <li class="useful__li">
-              <a href="#" class="useful__link">
+              <a href="https://consultant.ru/document/cons_doc_LAW_435068/" class="useful__link" target="_blank">
                 <img class="useful__link-img" src="<?php echo get_template_directory_uri() ?>/app/img/useful1.png" alt="Правовой календарь на I квартал 2023 года">
                 <span class="useful__link-title">Правовой календарь на I квартал 2023 года</span>
               </a>
             </li>
             <li class="useful__li">
-              <a href="#" class="useful__link">
+              <a href="https://nalog.ru/rn77/" class="useful__link" target="_blank">
                 <img class="useful__link-img" src="<?php echo get_template_directory_uri() ?>/app/img/useful2.png" alt="Федеральная налоговая служба">
                 <span class="useful__link-title">Федеральная налоговая служба</span>
               </a>
             </li>
             <li class="useful__li">
-              <a href="#" class="useful__link">
+              <a href="https://sfr.gov.ru/" class="useful__link" target="_blank">
                 <img class="useful__link-img" src="<?php echo get_template_directory_uri() ?>/app/img/useful3.png" alt="Пенсионный фонд РФ">
                 <span class="useful__link-title">Пенсионный фонд РФ</span>
               </a>
             </li>
             <li class="useful__li">
-              <a href="#" class="useful__link">
+              <a href="https://ksrf.ru/ru/Pages/default.aspx" class="useful__link" target="_blank">
                 <img class="useful__link-img" src="<?php echo get_template_directory_uri() ?>/app/img/useful4.png" alt="Конституционный Суд РФ">
                 <span class="useful__link-title">Конституционный Суд РФ</span>
               </a>

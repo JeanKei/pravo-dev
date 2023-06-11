@@ -17,7 +17,7 @@
           <a href="/">
             <img class="header-top__logo" src="<?php echo get_template_directory_uri() ?>/app/img/logo.svg" alt="Логотип">
           </a>
-          <button class="main-btn header-top__btn">
+          <button class="main-btn header-top__btn data-madal" data-graph-path="lead" data-nametitle="Заказать звонок">
             <img class="main-btn__arrow-btn" src="<?php echo get_template_directory_uri() ?>/app/img/arrow-btn.svg" alt="Кнопка">
             <span>Заказать звонок</span>
           </button>
@@ -52,7 +52,7 @@
               ));
             }
             ?>
-            <button class="main-btn header-top__btn-mobile">
+            <button class="main-btn header-top__btn-mobile data-madal" data-graph-path="lead" data-nametitle="Заказать звонок">
               <img class="main-btn__arrow-btn" src="<?php echo get_template_directory_uri() ?>/app/img/arrow-btn.svg" alt="Кнопка">
               <span>Заказать звонок</span>
             </button>

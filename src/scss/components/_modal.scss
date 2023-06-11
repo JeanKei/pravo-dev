@@ -1,0 +1,160 @@
+.graph-modal__container {
+  padding: 40px 20px 40px 20px !important;
+}
+
+.graph-modal__close {
+  background-image: none;
+}
+
+.graph-modal__container-sps {
+  width: 342px !important;
+  height: 179px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 11px rgba(141, 141, 141, 0.15);
+  border-radius: 15px;
+}
+
+.send {
+  &__title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    display: block;
+    padding-bottom: 27px;
+  }
+
+  &__form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__form-wrapper input {
+    height: 60px;
+    width: 300px;
+    padding: 20px 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(193, 193, 193, 0.5);
+  }
+
+  &__title-sps {
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    display: block;
+  }
+
+  &__descr-sps {
+    font-weight: 500;
+    padding-top: 23px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  &__button-group input {
+    background-color: #F26722;
+    color: #FFFFFF;
+    transition: background-color .3s ease-in-out;
+  }
+
+  &__button-group input:hover {
+    background-color: #CD4D0D;
+  }
+}
+
+.send .container {
+  padding: 0;
+}
+
+@media (max-width: 1201px) {
+  .send__form-wrapper {
+    justify-content: center;
+  }
+
+  .send {
+    &__form-wrapper label {
+      width: 30%;
+      flex-shrink: 0;
+    }
+
+    &__form-wrapper label:first-child {
+      margin-right: 20px;
+    }
+
+    &__form-wrapper input {
+      width: 100%
+    }
+
+    &__button-group {
+      width: 30%;
+
+      input {
+        width: 100%;
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1020px) {
+  .send__form-wrapper input {
+    font-size: 14px;
+  }
+
+  .send__form-wrapper input {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .send .header__cta {
+    display: block;
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width: 904px) {
+  .send__form-wrapper input {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 736px) {
+  .send__form-wrapper {
+    flex-direction: column;
+  }
+
+  .send__form-wrapper label {
+    width: 100%;
+  }
+
+  .send__button-group {
+    width: 100%;
+  }
+
+  .send__button-group input {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .send__form-wrapper label:first-child {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .send {
+    input {
+      font-size: 12px;
+    }
+  }
+}

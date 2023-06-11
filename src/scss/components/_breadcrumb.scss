@@ -1,0 +1,15 @@
+.breadcrumb {
+  padding-top: 14px;
+
+  &__title {
+    padding-top: 24px;
+  }
+}
+
+.wpcourses-breadcrumbs {
+
+  a,
+  span {
+    color: rgba(2, 2, 2, 0.44);
+  }
+}

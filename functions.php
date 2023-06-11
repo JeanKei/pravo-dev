@@ -49,28 +49,27 @@ add_theme_support( 'post-thumbnails' );
 
 add_image_size( 'news-thumbnail', 356, 254 );
 
-
 // хлебные крошки
 
-// function wpcourses_breadcrumb( $sep = ' > ' ) {
-// 	global $post;
-// 	$out = '';
-// 	$out .= '<div class="wpcourses-breadcrumbs">';
-// 	$out .= '<a href="' . home_url( '/' ) . '">Главная</a>';
-// 	$out .= '<span class="wpcourses-breadcrumbs-sep">' . $sep . '</span>';
-// 	if ( is_single() ) {
-// 		$terms = get_the_terms( $post, 'category' );
-// 		if ( is_array( $terms ) && $terms !== array() ) {
-// 			$out .= '<a href="' . get_term_link( $terms[0] ) . '">' . $terms[0]->name . '</a>';
-// 			$out .= '<span class="wpcourses-breadcrumbs-sep">' . $sep . '</span>';
-// 		}
-// 	}
-// 	if ( is_singular() ) {
-// 		$out .= '<span class="wpcourses-breadcrumbs-last">' . get_the_title() . '</span>';
-// 	}
-// 	if ( is_search() ) {
-// 		$out .= get_search_query();
-// 	}
-// 	$out .= '</div><!--.wpcourses-breadcrumbs-->';
-// 	return $out;
-// }
+function wpcourses_breadcrumb( $sep = ' > ' ) {
+	global $post;
+	$out = '';
+	$out .= '<div class="wpcourses-breadcrumbs">';
+	$out .= '<a href="' . home_url( '/' ) . '">Главная</a>';
+	$out .= '<span class="wpcourses-breadcrumbs-sep">' . $sep . '</span>';
+	if ( is_single() ) {
+		$terms = get_the_terms( $post, 'category' );
+		if ( is_array( $terms ) && $terms !== array() ) {
+			$out .= '<a href="' . get_term_link( $terms[0] ) . '">' . $terms[0]->name . '</a>';
+			$out .= '<span class="wpcourses-breadcrumbs-sep">' . $sep . '</span>';
+		}
+	}
+	if ( is_singular() ) {
+		$out .= '<span class="wpcourses-breadcrumbs-last">' . get_the_title() . '</span>';
+	}
+	if ( is_search() ) {
+		$out .= get_search_query();
+	}
+	$out .= '</div><!--.wpcourses-breadcrumbs-->';
+	return $out;
+}

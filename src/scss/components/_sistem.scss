@@ -32,6 +32,7 @@
     display: flex;
     border-radius: 12px;
     overflow: hidden;
+    cursor: pointer;
   }
 
   &__card:hover {
@@ -39,7 +40,12 @@
   }
 
   &__card:first-child {
+    padding: 0;
     background-color: #F26722;
+    border: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
   }
 
   &__card:last-child {
@@ -52,6 +58,7 @@
 
   &__card-text--left {
     color: #ffffff;
+    text-align: left;
   }
 
   &__card-title--left {
